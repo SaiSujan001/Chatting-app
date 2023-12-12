@@ -118,7 +118,7 @@ const Container = styled.div`
         }
       }
       &:hover {
-        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Add box shadow on hover */
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
       }
     }
     .selected {
