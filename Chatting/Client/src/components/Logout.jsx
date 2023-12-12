@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { IoMdExit } from "react-icons/io"; // Import the IoMdExit icon
+import { IoMdExit } from "react-icons/io";
 import styled from "styled-components";
 import axios from "axios";
 import { logoutRoute } from "../utils/APIRoutes";
@@ -21,7 +21,7 @@ export default function Logout() {
 
   return (
     <StyledLogoutButton onClick={handleClick}>
-      <IoMdExit /> {/* Use the IoMdExit icon */}
+      <IoMdExit /> {/*IoMdExit icon */}
       Logout
     </StyledLogoutButton>
   );
@@ -33,8 +33,8 @@ const StyledLogoutButton = styled.button`
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  border-radius: 0.2rem; /* Adjust border-radius as needed */
-  background-color: #8b0000; /* Dark red color */
+  border-radius: 0.2rem; 
+  background-color: #8b0000; 
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -45,7 +45,7 @@ const StyledLogoutButton = styled.button`
   }
 
   &:hover {
-    background-color: #5b0000; /* Darker red on hover */
+    background-color: #5b0000; 
   }
 `;
 
