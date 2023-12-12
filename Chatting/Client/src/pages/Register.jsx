@@ -181,11 +181,11 @@ const FormContainer = styled.div`
     border-radius: 0.4rem;
     font-size: 1rem;
     text-transform: uppercase;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added transition for box-shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
       background-color: #3a0d66;
-      box-shadow: 0 4px 8px rgba(78, 14, 255, 0.2); /* Show a shadow on hover */
+      box-shadow: 0 4px 8px rgba(78, 14, 255, 0.2); 
     }
   }
   }
