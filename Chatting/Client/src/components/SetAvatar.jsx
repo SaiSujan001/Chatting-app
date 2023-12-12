@@ -127,7 +127,7 @@ const AvatarsContainer = styled.div`
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap: 2rem;
-margin-top: 2rem; /* Add margin for better spacing */
+margin-top: 2rem;
 `;
 
 const AvatarContainer = styled.div`
@@ -157,7 +157,7 @@ const AvatarContainer = styled.div`
 
 
 const SubmitButton = styled.button`
-  background-color: #808080; /* Grey color */
+  background-color: #808080;
   color: white;
   padding: 1rem 2rem;
   border: none;
@@ -170,6 +170,6 @@ const SubmitButton = styled.button`
 
   &:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    background-color: #4e0eff; /* Color change on hover */
+    background-color: #4e0eff; 
   }
 `;
